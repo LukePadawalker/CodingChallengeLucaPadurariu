@@ -1,0 +1,92 @@
+/* font pagina */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* sfondo pagina */
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+/* stile titolo */
+header{
+    font-size: large;
+    font-weight: bold;
+    color: limegreen;
+}
+
+/* grandezza logo */
+#logo{
+    width: 20%;
+}
+
+/* stile barra di navigazione contenente i tre pulsanti */
+nav{
+    background-color: lime;
+    padding: 2%;
+    width: 979px;
+}
+
+/* stile corpo */
+main{
+    color: white;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* stile titoli */
+main span{
+    font-size: larger;
+}
+
+/* stile testo */
+main p{
+    font-weight:lighter;
+    font-size:small;
+
+}
+
+/* elementi grafici (canvas) */
+
+/* sfondo */
+#background{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1200px;
+    height: 900px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+/* rettangolo batteria 1 */
+#batteria1{
+    background-color: orange;
+    border-radius: 5px 5px 5px 5px;
+    width: 400px; 
+    height: 30px;
+}
+
+/* rettangolo batteria 2 */
+#batteria2{
+    background-color: limegreen;
+    border-radius: 5px 5px 5px 5px;
+    width: 800px; 
+    height: 30px;
+
+}
+
+/* rettangolo batteria 3 */
+#batteria3{
+    background-color: darkred;
+    border-radius: 5px 5px 5px 5px;
+    width: 200px; 
+    height: 30px;
+}
